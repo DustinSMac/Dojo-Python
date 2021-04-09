@@ -2,9 +2,9 @@ from classes import *
 
 
 #First part for User assignment
-Liam = User("Liam",100)
-Neil = User("Neil",100)
-Harris = User("Harris",100)
+Liam = User("Liam")
+Neil = User("Neil")
+Harris = User("Harris")
 
 Liam.make_deposit(30).make_deposit(20).make_deposit(10).display_user_balance()
 
