@@ -1,4 +1,4 @@
-from user import User
+from classes import *
 
 
 #First part for User assignment
@@ -15,7 +15,7 @@ Harris.make_deposit(540).make_withdrawal(26).make_withdrawal(87).make_withdrawal
 Liam.transfer_money(Harris,30).display_user_balance()
 Harris.display_user_balance()
 
-from BankAccount import BankAccount
+
 #2nd part for BankAccount assignment
 AccountA=BankAccount()
 AccountA.deposit(50).deposit(50).deposit(60).withdraw(32).yield_interest().display_account_info()
